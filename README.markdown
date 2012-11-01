@@ -17,7 +17,7 @@ Initialize plugin
     	$('form').preventDoubleSubmit(); 
 
     	//specific form by ID
-    	$('adduser_form').preventDoubleSubmit(); 
+    	$('#adduser_form').preventDoubleSubmit(); 
     });
 </script>
 ```
