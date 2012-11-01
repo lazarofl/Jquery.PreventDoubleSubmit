@@ -14,7 +14,10 @@ Initialize plugin
 <script type="text/javascript">
     $(function () {
     	//all forms
-    	$('form').preventDoubleSubmit();    	
+    	$('form').preventDoubleSubmit(); 
+
+    	//specific form by ID
+    	$('adduser_form').preventDoubleSubmit(); 
     });
 </script>
 ```
